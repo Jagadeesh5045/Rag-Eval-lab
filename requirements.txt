@@ -1,0 +1,6 @@
+# Pinned-ish versions known to work together on Python 3.11/3.12.
+streamlit==1.39.0
+scikit-learn==1.5.2
+rank-bm25==0.2.2
+numpy==1.26.4
+pandas==2.2.3
