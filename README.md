@@ -20,7 +20,7 @@ flowchart LR
     C --> E[TF-IDF index<br/>scikit-learn]
     Q([query]) --> D
     Q --> E
-    D --> F[RRF fusion<br/>1/(60+rank)]
+    D --> F["RRF fusion<br/>1/(60+rank)"]
     E --> F
     F --> G[top-k chunks]
     ANS([candidate answer]) --> H[groundedness.py<br/>sentence coverage check]
